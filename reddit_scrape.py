@@ -1,5 +1,6 @@
 import xml.etree.cElementTree as ET
 from bs4 import BeautifulSoup
+import urllib2
 
 # parse reddit front page html
 reddit = urllib2.urlopen('http://www.reddit.com/')
